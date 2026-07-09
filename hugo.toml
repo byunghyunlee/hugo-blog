@@ -1,1 +1,18 @@
 theme = "PaperMod"
+
+[params]
+  env = "production"
+  title = "My Hugo Blog"
+  description = "My blog description"
+  keywords = ["Blog", "Hugo"]
+  author = "Byunghyun Lee"
+
+  [params.assets]
+    disableHLJS = true
+
+  [params.profileMode]
+    enabled = true
+    title = "Welcome to My Blog"
+    subtitle = "This is my Hugo blog powered by PaperMod"
+    imageUrl = ""
+    imageTitle = ""
